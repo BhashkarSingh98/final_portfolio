@@ -8,9 +8,9 @@ hamburgar.addEventListener("click", function () {
     x.style.display = "block";
     line1.style.transform= "rotate(45deg)";
     line1.style.marginTop="0px"
-    line1.style.transition="1s"
+    line1.style.transition=".7s"
     line2.style.transition=".2s"
-    line3.style.transition="1s"
+    line3.style.transition=".7s"
     line2.style.visibility="hidden"
     line2.style.marginLeft="-10px"
     line3.style.transform= "rotate(-45deg)";
@@ -20,9 +20,9 @@ hamburgar.addEventListener("click", function () {
     line1.style.transform= "rotate(0deg)";
     line1.style.marginTop="0px"
     line3.style.marginTop="0px"
-    line1.style.transition="1s"
-    line2.style.transition="1s"
-    line3.style.transition="1s"
+    line1.style.transition=".7s"
+    line2.style.transition=".7s"
+    line3.style.transition=".7s"
     line2.style.marginLeft="0px"
 
     line2.style.visibility="visible"

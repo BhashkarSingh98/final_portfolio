@@ -643,9 +643,11 @@ hr {
 .logos4 {
   width: 45px;
   height: 45px;
-  background: transparent url(linkdin.png) 0% 0% no-repeat padding-box;
-  background-size: cover;
+  background: transparent url(lin.png) 0% 0% no-repeat padding-box;
+  background-size: contain;
+
   background-position: center;
+  background-repeat: no-repeat;
   border-radius: 50%;
   margin-top: 15px;
   box-shadow: 0px 0px 59px #60e9ff45;
@@ -1577,7 +1579,6 @@ hr {
     height: 50px;
   }
   .box2 {
-    background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;
     height: 460px;
     width: 100%;
     position: absolute;
@@ -1604,7 +1605,6 @@ hr {
   .box3 {
     height: 588px;
     width: 100%;
-    background: transparent url(about-me-guy.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     position: relative;
 
@@ -1695,14 +1695,166 @@ hr {
   .icon6 {
   }
   .icon7 {
+  }.section3 {
+    /* display: none; */
+    height: 1640px;
+   
   }
-  .section3 {
-    display: none;
+  .MyPortfolio {
+    margin-top: 30px;
+    font-size: 28px;
+   
+  }
+  .line2 {
+    border: none;
+    width: 180px;
+   
+  }
+  .box6 {
+    height: 243px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: block;
+    justify-content: space-between;
+  }
+  .Portfolio1 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .Portfolio1 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio1 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio2 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    
+
+  
+  }
+  .Portfolio2 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio2 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio3 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  
+  
+  }
+  .Portfolio3 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  
+  }
+  .Portfolio3 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .box7 {
+    height: 243px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    justify-content: space-between;
+    margin-top: 530px;
+  }
+  
+  .Portfolio4 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  
+  
+  }
+  .Portfolio4 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio4 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio5 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+   
+  
+  }
+  .Portfolio5 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio5 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio6 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+   
+  
+  }
+  .Portfolio6 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio6 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
   }
   .section4 {
     width: 100%;
     height: 1247px;
     margin: auto;
+    color: #105652;
+  }
+  .MyPortfolio {
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
     color: #105652;
   }
   .resume {
@@ -1890,7 +2042,6 @@ hr {
   .logos1 {
     width: 45px;
     height: 45px;
-    background: transparent url(fb.svg) 0% 0% no-repeat padding-box;
     background-size: cover cover cover;
     background-position: center;
     border-radius: 50%;
@@ -1901,7 +2052,6 @@ hr {
   .logos2 {
     width: 45px;
     height: 45px;
-    background: transparent url(behance.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -1910,7 +2060,6 @@ hr {
   .logos3 {
     width: 45px;
     height: 45px;
-    background: transparent url(dribbble.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -1919,7 +2068,6 @@ hr {
   .logos4 {
     width: 45px;
     height: 45px;
-    background: transparent url(pinterest.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -1928,7 +2076,6 @@ hr {
   .logos5 {
     width: 45px;
     height: 45px;
-    background: transparent url(skype.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -2364,7 +2511,6 @@ hr {
     height: 50px;
   }
   .box2 {
-    background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;
     height: 460px;
     width: 100%;
     position: absolute;
@@ -2391,7 +2537,6 @@ hr {
   .box3 {
     height: 588px;
     width: 100%;
-    background: transparent url(about-me-guy.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     position: relative;
 
@@ -2484,7 +2629,153 @@ hr {
   .icon7 {
   }
   .section3 {
-    display: none;
+    /* display: none; */
+    height: 1635px;
+   
+  }
+  .MyPortfolio {
+    margin-top: 30px;
+    font-size: 28px;
+   
+  }
+  .line2 {
+    border: none;
+    width: 180px;
+   
+  }
+  .box6 {
+    height: 243px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: block;
+    justify-content: space-between;
+  }
+  .Portfolio1 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .Portfolio1 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio1 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio2 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    
+
+  
+  }
+  .Portfolio2 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio2 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio3 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  
+  
+  }
+  .Portfolio3 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  
+  }
+  .Portfolio3 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .box7 {
+    height: 243px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    justify-content: space-between;
+    margin-top: 530px;
+  }
+  
+  .Portfolio4 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  
+  
+  }
+  .Portfolio4 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio4 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio5 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+   
+  
+  }
+  .Portfolio5 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio5 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio6 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+   
+  
+  }
+  .Portfolio6 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio6 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
   }
   .section4 {
     width: 100%;
@@ -2677,7 +2968,6 @@ hr {
   .logos1 {
     width: 45px;
     height: 45px;
-    background: transparent url(fb.svg) 0% 0% no-repeat padding-box;
     background-size: cover cover cover;
     background-position: center;
     border-radius: 50%;
@@ -2688,7 +2978,6 @@ hr {
   .logos2 {
     width: 45px;
     height: 45px;
-    background: transparent url(behance.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -2697,7 +2986,6 @@ hr {
   .logos3 {
     width: 45px;
     height: 45px;
-    background: transparent url(dribbble.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -2706,7 +2994,6 @@ hr {
   .logos4 {
     width: 45px;
     height: 45px;
-    background: transparent url(pinterest.svg) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;
@@ -2715,7 +3002,6 @@ hr {
   .logos5 {
     width: 45px;
     height: 45px;
-    background: transparent url(skype.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     border-radius: 50%;
     margin-top: 15px;

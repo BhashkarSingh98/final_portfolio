@@ -1579,6 +1579,7 @@ hr {
     height: 50px;
   }
   .box2 {
+    background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;
     height: 460px;
     width: 100%;
     position: absolute;
@@ -1605,6 +1606,7 @@ hr {
   .box3 {
     height: 588px;
     width: 100%;
+    background: transparent url(about-me-guy.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     position: relative;
 
@@ -1695,9 +1697,10 @@ hr {
   .icon6 {
   }
   .icon7 {
-  }.section3 {
+  }
+  .section3 {
     /* display: none; */
-    height: 1640px;
+    height: 1630px;
    
   }
   .MyPortfolio {
@@ -1830,6 +1833,7 @@ hr {
     height: 242px;
     border-radius: 12px;
     margin-bottom: 15px;
+   
    
   
   }
@@ -2511,6 +2515,7 @@ hr {
     height: 50px;
   }
   .box2 {
+    background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;
     height: 460px;
     width: 100%;
     position: absolute;
@@ -2537,6 +2542,7 @@ hr {
   .box3 {
     height: 588px;
     width: 100%;
+    background: transparent url(about-me-guy.png) 0% 0% no-repeat padding-box;
     background-size: cover;
     position: relative;
 
@@ -2630,7 +2636,7 @@ hr {
   }
   .section3 {
     /* display: none; */
-    height: 1635px;
+    height: 1630px;
    
   }
   .MyPortfolio {
@@ -2763,6 +2769,7 @@ hr {
     height: 242px;
     border-radius: 12px;
     margin-bottom: 15px;
+   
    
   
   }

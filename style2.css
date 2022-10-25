@@ -1561,7 +1561,7 @@ hr {
     top: 210px;
     left: 52%;
     color: #fbf3e4;
-    width: 49%;
+    width: 39%;
     height: 48px;
     z-index: 1;
 
@@ -1571,6 +1571,10 @@ hr {
     border-radius: 8px;
     background-color: #fca738;
     box-shadow: #f57f1769 0px 16px 28px;
+  }
+  .bo5:hover {
+    width: 40%;
+    height: 50px;
   }
   .box2 {
     background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;
@@ -2344,7 +2348,7 @@ hr {
     top: 210px;
     left: 52%;
     color: #fbf3e4;
-    width: 50%;
+    width: 39%;
     height: 48px;
     z-index: 1;
 
@@ -2354,6 +2358,10 @@ hr {
     border-radius: 8px;
     background-color: #fca738;
     box-shadow: #f57f1769 0px 16px 28px;
+  }
+  .bo5:hover {
+    width: 40%;
+    height: 50px;
   }
   .box2 {
     background: transparent url(banner-guy.png) 50% 0% no-repeat padding-box;

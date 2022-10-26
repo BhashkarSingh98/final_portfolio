@@ -2414,6 +2414,7 @@ hr {
     height: 74px;
     width: 100%;
     background-color: #fbf3e4;
+    
   }
   .myname {
     font-size: 20px;
@@ -2438,11 +2439,14 @@ hr {
     margin-left: 0%;
     margin-right: 0px;
     z-index: 11;
+    border-radius:0px 0px 119px 0px ;
+    
     /* display: none; */
   }
   #list li {
     margin-left: 45%;
   }
+  
 
   .section1 {
     height: 760px;
@@ -2482,6 +2486,8 @@ hr {
     font-size: 26px;
     color: #fbf3e4;
     font-weight: bold;
+   
+
   }
   .bo3 {
     position: absolute;
@@ -2591,6 +2597,7 @@ hr {
     margin-top: 30px;
     font-size: 16px;
     line-height: 20px;
+    word-spacing: 2px;
     margin-left: 5%;
     width: 93%;
    
@@ -2601,6 +2608,7 @@ hr {
     margin-top: 25px;
     margin-left: 5%;
     width: 93%;
+    word-spacing: 2px;
   }
   .webcontent {
     height: 280px;

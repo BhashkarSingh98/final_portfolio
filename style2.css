@@ -255,7 +255,13 @@ a:hover {
   background: transparent url(js.svg) 0% 0% no-repeat padding-box;
 }
 .icon4 {
-  background: transparent url(react-native.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(React-icon.svg.png) 0% 0% no-repeat padding-box;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+   height: 45px;
+  width: 45px; 
+  margin-left: -5px;
 
 }
 .icon5 {
@@ -1648,12 +1654,14 @@ hr {
     font-size: 16px;
     line-height: 20px;
     margin-left: 5%;
+    width: 93%;
   }
   .bo8 {
     font-size: 16px;
     line-height: 20px;
     margin-top: 30px;
     margin-left: 5%;
+    width: 93%;
   }
   .webcontent {
     height: 280px;
@@ -2584,12 +2592,15 @@ hr {
     font-size: 16px;
     line-height: 20px;
     margin-left: 5%;
+    width: 93%;
+   
   }
   .bo8 {
     font-size: 16px;
     line-height: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 5%;
+    width: 93%;
   }
   .webcontent {
     height: 280px;

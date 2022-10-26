@@ -183,22 +183,23 @@
                 </div>
                 <div class="aboutcontect2">
                     <p class="sendme">Send me a massage</p>
-                   <form action="">
+                   <form  action="https://formspree.io/f/meqdrepd"
+                   method="POST">
                     <label class="label1" for="name">First & Last Name <span class="star">*</span></label>
                     <br>
-                    <input class="input1" type="text" name="nmae" required>
+                    <input class="input1" type="text" name="name" required placeholder="Name" required>
                     <br>
-                    <label class="label2" for="tele">Phone number<span class="star">*</span></label>
+                    <label class="label2" for="mobile no.">Phone number<span class="star">*</span></label>
                     <br>
-                    <input class="input2" type="tel" name="tele" required>
+                    <input class="input2" type="tel" name="mobile no." required placeholder="mobile no." required>
                     <br>
                     <label class="label3" for="email"> Email address<span class="star">*</span></label>
                     <br>
-                    <input class="input3" type="email" name="email" required>
+                    <input class="input3" type="email" name="email" required placeholder="example@gmail.com" required>
                     <br>
                     <label class="label4" for="textare1">Message<span class="star">*</span></label>
                     <br>
-                  <textarea class="input4" name="" id="" cols="0" rows="0"></textarea>
+                  <textarea class="input4" name="message"  cols="0" rows="0" placeholder="textarea" required></textarea>
                   <button class="formbutton">Send Message</button>
                    </form>
 

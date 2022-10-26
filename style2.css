@@ -935,6 +935,8 @@ hr {
   opacity: 1;
   margin-left: 17%;
   margin-bottom: 27px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 .input2 {
   width: 70%;
@@ -945,6 +947,8 @@ hr {
   opacity: 1;
   margin-left: 17%;
   margin-bottom: 27px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 .input3 {
   width: 70%;
@@ -955,6 +959,8 @@ hr {
   opacity: 1;
   margin-left: 17%;
   margin-bottom: 27px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 .input4 {
   width: 70%;
@@ -964,7 +970,10 @@ hr {
   border-radius: 6px;
   opacity: 1;
   margin-left: 17%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .star {
   font: normal normal normal 13px/16px Inter;

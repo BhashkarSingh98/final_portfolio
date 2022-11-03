@@ -1029,6 +1029,8 @@ hr {
   height: 21px;
   width: 27.3px;
   display: none;
+  position: relative;
+  z-index: 12;
 }
 .ham1 {
   height: 4px;
@@ -1490,21 +1492,27 @@ hr {
   }
   #list {
     width: 100%;
-    height: 290px;
-    background-color: white;
+    height: 390px;
+    background-color:white;
     position: absolute;
     top: 73px;
-    display: block;
     text-decoration: none;
     list-style-type: none;
-    display: none;
-    margin-left: 0%;
+    display:block;
+    margin-left: -120%;
     margin-right: 0px;
     z-index: 11;
-    /* display: none; */
+    border-radius:0px 0px 10px 10px ;
+    transition: .8s;
+  }
+  #list.is-active{
+    margin-left: 0%;
+
   }
   #list li {
     margin-left: 45%;
+    margin-top: 18px;
+    font-size: 20px;
   }
   .section1 {
     height: 760px;
@@ -2391,6 +2399,14 @@ hr {
     border: none;
     margin-bottom: 4px;
     border-radius: 3px;
+    transition: .7s;
+  }
+  .ham1.is-active {
+    transform: rotate(45deg);
+    margin-top: 0px;
+    transition: .7s;
+
+   
   }
   .ham2 {
     height: 4.2px;
@@ -2399,6 +2415,15 @@ hr {
     border: none;
     margin-bottom: 4px;
     border-radius: 3px;
+    transition: 0.2s;
+  }
+  .ham2.is-active {
+    margin-left: -12px;
+    transition: 0.2s;
+    visibility: hidden;
+    
+
+   
   }
   .ham3 {
     height: 4px;
@@ -2406,6 +2431,14 @@ hr {
     background-color: #105652;
     border: none;
     border-radius: 3px;
+    transition: .7s;
+  }
+  .ham3.is-active {
+    transform: rotate(-45deg);
+    margin-top: -15px;
+    transition:.7s;
+
+   
   }
 }
 
@@ -2429,20 +2462,25 @@ hr {
   #list {
     width: 100%;
     height: 290px;
-    background-color: white;
+    background-color:white;
     position: absolute;
     top: 73px;
-    /* display: block; */
     text-decoration: none;
     list-style-type: none;
-    display: none;
-    margin-left: 0%;
+    display:block;
+    margin-left: -120%;
     margin-right: 0px;
     z-index: 11;
     border-radius:0px 0px 10px 10px ;
+    transition: .8s;
+  
     
-    /* display: none; */
   }
+  #list.is-active{
+    margin-left: 0%;
+
+  }
+  
   #list li {
     margin-left: 45%;
   }
@@ -3323,6 +3361,7 @@ hr {
     display: block;
     margin-top: 27px;
     margin-left: 33%;
+    z-index: 114;
   }
   .ham1 {
     height: 4px;
@@ -3331,6 +3370,14 @@ hr {
     border: none;
     margin-bottom: 4px;
     border-radius: 3px;
+    transition: .7s;
+  }
+  .ham1.is-active {
+    transform: rotate(45deg);
+    margin-top: 0px;
+    transition: .7s;
+
+   
   }
   .ham2 {
     height: 4.2px;
@@ -3339,6 +3386,15 @@ hr {
     border: none;
     margin-bottom: 4px;
     border-radius: 3px;
+    transition: 0.2s;
+  }
+  .ham2.is-active {
+    margin-left: -12px;
+    transition: 0.2s;
+    visibility: hidden;
+    
+
+   
   }
   .ham3 {
     height: 4px;
@@ -3346,6 +3402,14 @@ hr {
     background-color: #105652;
     border: none;
     border-radius: 3px;
+    transition: .7s;
+  }
+  .ham3.is-active {
+    transform: rotate(-45deg);
+    margin-top: -15px;
+    transition:.7s;
+
+   
   }
 }
 /* @media (min-width:481px) and (max-width:768px)

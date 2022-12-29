@@ -283,7 +283,7 @@ a:hover {
   width: 50px;
 }
 .section3 {
-  height: 600px;
+  height: 900px;
   width: 90%;
   margin: auto;
   border-radius: 20px;
@@ -425,6 +425,68 @@ a:hover {
   transition: 1s;
 }
 .Portfolio6 img:hover{
+  width: 102%;
+  height: 247px;
+  border-radius: 12px;
+}
+.box88 {
+  height: 243px;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Portfolio7 {
+  width: 32%;
+  height: 242px;
+  border-radius: 12px;
+}
+
+.Portfolio7 img{
+  width: 100%;
+  height: 242px;
+  border-radius: 12px;
+  transition: 1s;
+}
+.Portfolio7 img:hover{
+  width: 102%;
+  height: 247px;
+  border-radius: 12px;
+}
+.Portfolio8 {
+  width: 29%;
+  height: 242px;
+  border-radius: 12px;
+
+}
+.Portfolio8 img {
+  width: 100%;
+  height: 242px;
+  border-radius: 12px;
+  transition: 1s;
+}
+.Portfolio8 img:hover{
+  width: 102%;
+  height: 247px;
+  border-radius: 12px;
+}
+.Portfolio9 {
+  width: 35%;
+  height: 242px;
+  border-radius: 12px;
+
+
+}
+.Portfolio9 img{
+  width: 100%;
+  height: 242px;
+  border-radius: 12px;
+  transition: 1s;
+
+}
+.Portfolio9 img:hover{
   width: 102%;
   height: 247px;
   border-radius: 12px;
@@ -2703,7 +2765,7 @@ hr {
   }
   .section3 {
     /* display: none; */
-    height: 1630px;
+    height: 2430px;
    
   }
   .MyPortfolio {
@@ -2847,6 +2909,73 @@ hr {
     transition: 1s;
   }
   .Portfolio6 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .box88 {
+    height: 243px;
+    width: 100%;
+    margin: auto;
+    margin-top: 530px;
+    border-radius: 20px;
+    display: block;
+    justify-content: space-between;
+  }
+  .Portfolio7 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .Portfolio7 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio7 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio8 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    
+
+  
+  }
+  .Portfolio8 img {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  .Portfolio8 img:hover{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .Portfolio9 {
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  
+  
+  }
+  .Portfolio9 img{
+    width: 100%;
+    height: 242px;
+    border-radius: 12px;
+    transition: 1s;
+  
+  }
+  .Portfolio9 img:hover{
     width: 100%;
     height: 242px;
     border-radius: 12px;
